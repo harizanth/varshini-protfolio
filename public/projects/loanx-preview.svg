@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="loanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#C4B5FD" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#loanBg)" />
+
+  <!-- Top bar / browser window look -->
+  <rect x="0" y="0" width="600" height="42" fill="#07101C" rx="16 16 0 0" />
+  <circle cx="28" cy="21" r="5" fill="#EF4444" />
+  <circle cx="44" cy="21" r="5" fill="#F59E0B" />
+  <circle cx="60" cy="21" r="5" fill="#10B981" />
+  <text x="300" y="26" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">
+    LoanX — Commercial Loan Underwriting &amp; Covenant Engine
+  </text>
+
+  <!-- Metric Cards -->
+  <g transform="translate(30, 60)">
+    <rect width="160" height="70" rx="8" fill="#111E33" stroke="#1E293B" />
+    <text x="16" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Risk Assessment</text>
+    <text x="16" y="52" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#10B981">Low Risk (88/100)</text>
+  </g>
+
+  <g transform="translate(210, 60)">
+    <rect width="160" height="70" rx="8" fill="#111E33" stroke="#1E293B" />
+    <text x="16" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Financial Health</text>
+    <text x="16" y="52" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#C4B5FD">DSCR 1.85x</text>
+  </g>
+
+  <g transform="translate(390, 60)">
+    <rect width="180" height="70" rx="8" fill="#111E33" stroke="#1E293B" />
+    <text x="16" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">Covenant Status</text>
+    <text x="16" y="52" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#60A5FA">Fully Compliant</text>
+  </g>
+
+  <!-- Document Intake & Workflow Flowchart -->
+  <g transform="translate(30, 150)">
+    <rect width="540" height="195" rx="10" fill="#0E1A2D" stroke="#1E293B" />
+    <text x="24" y="32" font-family="'Outfit', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">
+      AI Automated Underwriting Operations
+    </text>
+
+    <!-- Flow Steps -->
+    <g transform="translate(24, 55)">
+      <!-- Step 1 -->
+      <rect width="105" height="90" rx="6" fill="#15243D" stroke="#334155" />
+      <text x="12" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#C4B5FD">1. Ingestion</text>
+      <text x="12" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Balance Sheets</text>
+      <text x="12" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">P&amp;L Statements</text>
+      <text x="12" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#10B981">OCR Extracted</text>
+
+      <!-- Step 2 -->
+      <g transform="translate(130, 0)">
+        <rect width="105" height="90" rx="6" fill="#15243D" stroke="#334155" />
+        <text x="12" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#C4B5FD">2. Analysis</text>
+        <text x="12" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Liquidity Ratios</text>
+        <text x="12" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Debt Coverage</text>
+        <text x="12" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#10B981">Normalized</text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(260, 0)">
+        <rect width="105" height="90" rx="6" fill="#15243D" stroke="#334155" />
+        <text x="12" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#C4B5FD">3. Underwrite</text>
+        <text x="12" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Credit Policy</text>
+        <text x="12" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">Risk Scoring</text>
+        <text x="12" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#10B981">Model Approved</text>
+      </g>
+
+      <!-- Step 4 -->
+      <g transform="translate(390, 0)">
+        <rect width="102" height="90" rx="6" fill="#1E1B4B" stroke="#6366F1" />
+        <text x="10" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#C4B5FD">4. Monitor</text>
+        <text x="10" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#E2E8F0">Covenants</text>
+        <text x="10" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#E2E8F0">Compliance</text>
+        <text x="10" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#38BDF8">Real-time Watch</text>
+      </g>
+    </g>
+
+    <!-- Bottom summary status -->
+    <text x="24" y="174" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">
+      Architecture: Python ML Engine • React Frontend • Secure Document Parser
+    </text>
+  </g>
+</svg>

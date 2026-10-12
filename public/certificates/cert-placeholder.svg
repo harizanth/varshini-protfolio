@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#C4B5FD" />
+    </linearGradient>
+  </defs>
+
+  <rect width="520" height="360" rx="16" fill="url(#certBg)" stroke="url(#goldBorder)" stroke-width="3" />
+  <rect x="16" y="16" width="488" height="328" rx="10" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="6 4" />
+
+  <!-- Corner Ornamental Accents -->
+  <path d="M 26 50 L 26 26 L 50 26" fill="none" stroke="#C4B5FD" stroke-width="2.5" />
+  <path d="M 494 50 L 494 26 L 470 26" fill="none" stroke="#C4B5FD" stroke-width="2.5" />
+  <path d="M 26 310 L 26 334 L 50 334" fill="none" stroke="#C4B5FD" stroke-width="2.5" />
+  <path d="M 494 310 L 494 334 L 470 334" fill="none" stroke="#C4B5FD" stroke-width="2.5" />
+
+  <!-- Header Badge -->
+  <text x="260" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#C4B5FD" letter-spacing="3">
+    CERTIFICATE OF COMPLETION
+  </text>
+  <line x1="180" y1="68" x2="340" y2="68" stroke="#C4B5FD" stroke-width="1" opacity="0.6" />
+
+  <text x="260" y="102" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94A3B8">
+    Awarded To
+  </text>
+
+  <!-- Recipient Name -->
+  <text x="260" y="140" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="1">
+    S. VARSHINI
+  </text>
+  <text x="260" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#A78BFA">
+    Computer Science &amp; Design • SNS College of Technology
+  </text>
+
+  <text x="260" y="198" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8">
+    For successfully demonstrating competence and coursework completion
+  </text>
+
+  <!-- Title Badge -->
+  <rect x="80" y="215" width="360" height="42" rx="8" fill="#15243D" stroke="#334155" />
+  <text x="260" y="242" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#C4B5FD">
+    Verified Coursework Credential
+  </text>
+
+  <!-- Seal / Emblem -->
+  <g transform="translate(80, 275)">
+    <circle cx="24" cy="24" r="20" fill="#1E293B" stroke="#8B5CF6" stroke-width="1.5" />
+    <circle cx="24" cy="24" r="14" fill="none" stroke="#C4B5FD" stroke-width="1" />
+    <text x="24" y="28" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PASS</text>
+  </g>
+
+  <!-- Verification Note -->
+  <g transform="translate(260, 290)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94A3B8">
+      Official Certificate Placeholder
+    </text>
+    <text x="0" y="16" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">
+      Drop your certificate image/PDF in: public/certificates/
+    </text>
+  </g>
+</svg>
